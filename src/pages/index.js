@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
@@ -8,14 +8,21 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <header className="h-85vh">
+      <div class="h-full flex items-center">
+        <div className="px-270 w-full">
+          <h2>Oil painter</h2>
+          <h1>
+           Katerine Elise <br />
+          Art
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <div class="h-85vh mr-64 bg-blue-500">
+
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

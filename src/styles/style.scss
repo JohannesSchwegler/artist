@@ -1,0 +1,83 @@
+@import "reset";
+
+/*  @import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";  */
+
+@import "menu";
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Playfair Display" !important;
+    font-weight: 600;
+    min-height: 200vh;
+}
+
+h1 {
+    font-size: 6vw;
+    /*  letter-spacing: 0.005em; */
+}
+
+h2 {
+    margin-bottom: 50px;
+}
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+    height: 100%;
+}
+
+.tl-edges,
+.scroll-container {
+    min-height: 100%;
+}
+
+.scroll-container {
+    /*     position: absolute; 
+ 
+    z-index: 10;
+
+    backface-visibility: hidden;
+
+    transform-style: preserve-3d;
+    will-change: transform;
+
+    transform: translate3d(0, 0, 0);
+    height: 100%; */
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    background: 0 0;
+    border: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    outline: 0 !important;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+    text-align: inherit;
+    text-transform: inherit;
+    text-indent: inherit;
+    text-decoration: none;
+}
+
+main {
+    padding-top: 120px;
+}
